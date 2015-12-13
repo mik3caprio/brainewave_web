@@ -1,0 +1,15 @@
+<?php include '../../includes/site_variables.php'?>
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet" type="text/css" />
+  <link href="<?php echo $site; ?>sss.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../../mm_external.js"></script>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="MM_preloadImages('<?php echo $site; ?>images/im_a_parent_over.gif','<?php echo $site; ?>images/im_a_caregiver_over.gif','<?php echo $site; ?>images/smart_start_about_over.png','<?php echo $site; ?>images/smart_start_resources_over.png','<?php echo $site; ?>images/smart_start_news_over.png','<?php echo $site; ?>images/smart_start_contact_over.png','<?php echo $site; ?>images/smart_start_blog_over.png')">
+<table width="900" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#5c86a1">
+  <tr>
+    <td rowspan="3"><a href="<?php echo $site; ?>index.php"><img src="<?php echo $site; ?>images/smart_start_logo.png" alt="Smart Start Sitters Home" width="253" height="312" /></a></td>
+    <td colspan="2" style="width:647px;"><a href="<?php echo $site; ?>about/index.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('about_button','','<?php echo $site; ?>images/smart_start_about_over.png',1)"><img src="<?php echo $site; ?>images/smart_start_about_up.png" alt="About Smart Start Sitters" name="about_button" width="129" height="60" border="0" id="about_button" /></a><a href="<?php echo $site; ?>resources/index.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('resources_button','','<?php echo $site; ?>images/smart_start_resources_over.png',1)"><img src="<?php echo $site; ?>images/smart_start_resources_up.png" alt="Smart Start Resources" name="resources_button" width="129" height="60" border="0" id="resources_button" /></a><a href="<?php echo $site; ?>news/index.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('news_button','','<?php echo $site; ?>images/smart_start_news_over.png',1)"><img src="<?php echo $site; ?>images/smart_start_news_up.png" alt="Smart Start News" name="news_button" width="129" height="60" border="0" id="news_button" /></a><a href="<?php echo $site; ?>contact/index.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('contact_button','','<?php echo $site; ?>images/smart_start_contact_over.png',1)"><img src="<?php echo $site; ?>images/smart_start_contact_up.png" alt="Contact Smart Start Sitters" name="contact_button" width="128" height="60" border="0" id="contact_button" /></a><a href="<?php echo $site; ?>#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('blog_button','','<?php echo $site; ?>images/smart_start_blog_over.png',1)"><img src="<?php echo $site; ?>images/smart_start_blog_up.png" alt="Smart Start Blog" name="blog_button" width="132" height="60" border="0" id="blog_button" /></a></td>
+  </tr>
+  <tr>
+    <td colspan="2" style="display:block; padding:0px; margin:0px; width:560px;"><img src="<?php echo $site; ?>images/smart_start_artwork.png" alt="Smart Start Sitters" width="647" height="217" border="0" /><br clear="all" /></td>
+  </tr>
