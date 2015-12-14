@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="description" content="Brainewave Consulting synthesizes software, develops databases, and provides strategic consulting and unique vision to established mid-sized businesses and startup companies who seek a better way to use their business knowledge.">
+    <meta name="keywords" content="software, database, brain, application, integration, strategic consulting, startup, vision, business knowledge">
+    {% block head %}
+    <link href="{{ url_for('static', filename='stylesheets/style.css') }}" media="screen" rel="stylesheet" type="text/css" />
+    <title>{% block title %}{% endblock %} - Brainewave Consulting</title>
+    {% endblock %}
+  </head>
+  <body>
+    <div id="header">
+        <span style="position: absolute; left: 50px; width: 848;"><img src="{{ url_for('static', filename='images/brainewave.png') }}" height="312" width="500" alt="Software With A Braine" /><img src="{{ url_for('static', filename='images/wave.png') }}" height="251" width="348" alt="" style="padding: 66px 0 0 0;" /></span>
+    </div>
+    <div id="content">{% block content %}{% endblock %}
+    </div>
+    <div id="footer">
+      {% block footer %}{% endblock %}
+    </div>
+  </body>
+</html>

@@ -1,2 +1,5 @@
-.DS_Store
 venv
+*.pyc
+staticfiles
+
+.DS_Store
